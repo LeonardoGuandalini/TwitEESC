@@ -1,7 +1,7 @@
 # TwitEESC
 Projeto da semana trainee do Núcleo NTec da EESC jr.
 
-Fazer:
+Fazer:  
 [x] Página de Login   
 [ ] Página de registro  
 [ ] Página de redirecionamento depois de registrar  
