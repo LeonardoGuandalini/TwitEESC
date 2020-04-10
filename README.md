@@ -2,7 +2,7 @@
 Projeto da semana trainee do Núcleo NTec da EESC jr.
 
 Fazer:
-[x] Página de Login
+[x] Página de Login \n
 [ ] Página de registro
 [ ] Página de redirecionamento depois de registrar
 [ ] Página Home/Feed
