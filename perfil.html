@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="perfil.css">
+        <title> Perfil | TwittEESC </title> 
+
+    </head>
+    <body>
+
+        <div id="nav-bar" class="nav-bar">
+
+            <div class="open-close">
+                <a class="open-button" id="open-button" onclick="openSlideMenu()"; href="#"> &#9654 </a> 
+                <a class="close-button" id="close-button" onclick="closeSlideMenu()"; href="#"> &#10006 </a>
+            </div>
+
+            
+            <div class="nav-buttons">
+                <a class="nav-button" href="#"> Home </a>
+                <a class="nav-button" href="./perfil.html"> Perfil </a> 
+                <a class="nav-button" href="#"> Favoritos </a>
+                <a class="nav-button" href="#"> Configurações </a>
+                <a class="nav-button" href="./pagina_login.html"> Login </a>
+                <input type="text" name="buscar" class="search-bar" placeholder="Buscar">
+            </div>
+        </div>
+
+
+        <div class="perfil">
+            <div class="foto-perfil">
+                <image src="wild_pepe.jpg" />
+            </div>
+            <div class="informacoes">
+                <span> desc </span>
+
+            </div>
+        </div>
+    </body>
+    <script>
+        function openSlideMenu() {
+            document.getElementById("nav-bar").style.marginLeft ='0px';
+
+        }
+        function closeSlideMenu() {
+            document.getElementById("nav-bar").style.marginLeft = '-200px'
+
+        }
+
+
+    </script>
+
+
+
+
+</html>
