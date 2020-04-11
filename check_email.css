@@ -1,0 +1,23 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bemvindo {
+    text-align: center;
+    font-size: 28px;
+    margin: 30px auto 25px auto;
+    font-weight: bold;
+    
+}
+
+
+.caixa-icone {
+    text-align: center;
+ }
+
+ .container {
+ 	text-align: center;
+ 	font-size: 22px;
+ 	font-style: bold;
+ 	margin: 25px auto 25px auto;
+ }
