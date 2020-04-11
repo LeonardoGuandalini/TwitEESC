@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title> Registrar - TwittEESC </title>
+        <link rel="stylesheet" href="./reset.css">
+        <link rel="stylesheet" href="./registrar.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="bemvindo"> 
+            <h1> Bem-Vindo ao TwittEESC </h1>
+
+        </div>
+        <div class="caixa-icone">
+            <image class="icone" src="eescquilo.png" alt="Esquilo de óculos, logo do TwittEESC"/>
+        </div>
+        <div class="container">
+            <h1 class="texto-registrar"> Por favor registre-se </h1>
+        </div>
+        <form class="login-senha">
+
+            <label for="email"> Email: </label>
+            <input type="email" name="email" required>
+
+            <label for="username"> Username: </label>
+            <input type="text" name="username" required>
+
+            <label for="senha"> Senha: </label>
+            <input type="password" name="senha" required id="senha">
+
+            <label for="senha-confirm"> Repita sua senha: </label>
+            <input type="password" name="senha-confirm" required id="senha-confirm"> 
+
+            
+            <input class="entrar" type="submit" value="Entrar">
+            <div class="erro">
+                <span class="senha-incompativel"></span>
+            </div>
+        </form>
+        
+
+    </body>
+    <script src="./confirmaSenha.js"></script>
+
+</html>
