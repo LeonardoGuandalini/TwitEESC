@@ -1,0 +1,102 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.container {
+  display: flex;
+  margin: 0 0 0 -11%; 
+  transition: 500ms;
+
+}
+
+#menu-space {
+  flex-grow: 1;
+  background: linear-gradient(darkblue, rgb(45, 0, 128));
+  height: 100vh;
+  
+
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 15px;
+}
+
+.nav-button-menu {
+  color:gray;
+  flex-direction: column;
+  padding: 15px;
+  font-size: 1vw;
+  font-weight: bold;
+  transition: 500ms;
+}
+
+.nav-button-menu:hover {
+  color: white;
+
+}
+
+
+#open-close {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+  
+
+}
+.nav-button {
+  color: white;
+  
+}
+
+.write {
+  margin: 10px auto;
+
+}
+
+.tweet {
+  background: lightcoral;
+  text-decoration: none;
+  border: none;
+  color: darkred;
+  width: 400px;
+  height: 35px;
+}
+
+.letter-number {
+  margin: 0 8px;
+  width: 2px;
+}
+.sendTweet {
+  background: darkred;
+  color: white;
+
+}
+#feed-space {
+  flex-grow: 10;
+  background: crimson;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.posts {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+}
+
+.post {
+  margin: 10px 0;
+  padding: 50px 100px;
+  border: black solid 2px;
+
+}
+
+.profile-pic {
+  position: left;
+
+}
