@@ -51,16 +51,40 @@ body {
   
 }
 
+.area-busca {
+  display: flex;
+  
+  flex-direction: column;
+}
+.barra-pesquisa {
+  width: 150px;
+  border-radius: 15px;
+  height: 25px;
+  margin-top: 25px;
+  font-family: 'Montserrat' sans-serif;
+  font-size: 0.7vw;
+  font-weight: bold;
+}
+
+.barra-pesquisa-busca {
+  width: 60px;
+  height: 25px;
+  margin-top: 25px;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+
 .write {
   margin: 10px auto;
 
 }
 
 .tweet {
-  background: lightcoral;
+  background: darkblue;
+  font-size: 0.85vw;
   text-decoration: none;
   border: none;
-  color: darkred;
+  color: white;
   width: 400px;
   height: 35px;
   resize: none;
@@ -71,13 +95,13 @@ body {
   width: 2px;
 }
 .sendTweet {
-  background: darkred;
+  background: darkblue;
   color: white;
-
+  
 }
 #feed-space {
   flex-grow: 10;
-  background: crimson;
+  background: white;
   height: 100vh;
   display: flex;
   flex-direction: column;
