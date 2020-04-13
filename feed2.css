@@ -63,6 +63,7 @@ body {
   color: darkred;
   width: 400px;
   height: 35px;
+  resize: none;
 }
 
 .letter-number {

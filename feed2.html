@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- COPIAR -->
 <html lang="pt-br">
   <head>
         <meta charset="UTF-8">
@@ -7,15 +8,16 @@
         <link rel="stylesheet" href="./feed2.css">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
   </head>
+<!-- /COPIAR -->
 
-
+<!-- COPIAR -->
   <body>
     <div class="container" id="container">
       <div id="menu-space">
         <div id="open-close">
           <span class="nav-button" onclick="closeSlideMenu()"> &#128473 </span>
           <span class="nav-button" onclick="openSlideMenu()"> &#9654 </span>
-          <script src="addPost.js"></script>
+
         </div>
 
 
@@ -26,9 +28,9 @@
           <a class="nav-button-menu"> Configurações </a>
         </div>
       </div>
-
+<!-- /COPIAR -->
       <div id="feed-space">
-        <div class="write">
+        <div class="write" id="write">
           <textarea class="tweet" type="text" id="tweet-area" placeholder="Escreva algo... (máx. 140 caracteres)" onkeyup="count(this);" maxlength="140"></textarea>
           <span class="letter-number" id="count"> 0 </span>
           <input type="button" onclick="addPost()" name="Enviar" value="Enviar" class="sendTweet">
@@ -36,12 +38,6 @@
 
         </div>
         <div class="posts">
-          <div class="post">
-            <div class="profile-pic"> <image src="wild_pepe.jpg"/></div>
-            <div class="username"> Pepe, the frog </div>
-            <div class="content"> Lorem Ipsum dolor </div>
-
-          </div>
         </div>
       </div>
 
@@ -49,7 +45,7 @@
 
   </body>
 
-
+<!-- COPIAR -->
   <script>
     function openSlideMenu() {
       document.getElementById("container").style.marginLeft = '0px';
@@ -62,8 +58,11 @@
 
 
   </script>
-  <script src="tweetLetterCount.js"></script>
 
+<!-- /COPIAR -->
+
+  <script src="tweetLetterCount.js"></script>
+  <script src="addPost.js"></script>
 
 
 
