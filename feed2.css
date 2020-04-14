@@ -31,6 +31,7 @@ body {
   font-size: 1vw;
   font-weight: bold;
   transition: 500ms;
+  text-decoration: none;
 }
 
 .nav-button-menu:hover {
@@ -47,9 +48,16 @@ body {
 
 }
 .nav-button {
-  color: white;
-  
+  font-weight: bold;
+  font-size: 1em;
+  color: rgb(212, 211, 211);
+  transition: 400ms;
+  text-decoration: none;
+  display: table;
+  padding: 10px 0px 15px 0px;
+  margin-left: 15px;
 }
+
 
 .area-busca {
   display: flex;

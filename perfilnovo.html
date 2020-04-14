@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!-- COPIAR -->
+<html lang="pt-br">
+  <head>
+        <meta charset="UTF-8">
+        <title> Feed | TwitEESC</title>
+        <link rel="stylesheet" href="./reset.css">
+        <link rel="stylesheet" href="./perfilnovo.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  </head>
+
+
+
+    <body>
+        <div class="container" id="container">      
+        <div id="menu-space">
+            <div id="open-close">
+            <span class="nav-button" onclick="closeSlideMenu()"> &#128473 </span>
+            <span class="nav-button" onclick="openSlideMenu()"> &#9654 </span>
+
+            </div>
+
+
+            <div class="nav-menu">
+            <a class="nav-button-menu"href="./feed2.html"> Home </a>
+            <a class="nav-button-menu"href="./perfilnovo.html".> Perfil </a>
+            <div class="area-busca">
+                <input type="text" placeholder="Buscar" class="barra-pesquisa"> 
+                <input type="button" name="buscar" value="buscar" class="barra-pesquisa-busca">
+            </div>
+            </div>
+        </div>
+
+        <div id="feed-space">
+            <div id="bloco">
+                <h1><img src="capa.png" id="capa"></h1>
+                <h1><img src="wild_pepe.jpg"id="fotop"></h1>
+                <div id="dados">
+                    <h2 id="nome">Nome da pessoa</h2>
+                    <h2 id="login">@Apelido </h2>
+                    <p id="info1">Idade</p>
+                    <p class="info">e-mail@eescjr.com</p>
+                    <p id="descricao">Breve descrição de preferência da pessoa, com limite de 100 palavras.</p>
+                </div>
+            
+                    
+                <h3 id="fraseimpacto">Núcleo de tecnologia</h3>
+                <h3 id="fraseimpacto">Frase de impacto preferida: </h3>
+                <h3 id="descimpacto">Aqui a pessoa coloca a sua preferida</h3>
+                <div>
+                    <h4><img src="azul.png" id="opcoes"><h4>
+                    <h4 class="opcoes"><a class="botao" href="">Tweets antigos</a></h4> 
+                    <h4 class="opcoes"><a class="botao" href="">Seguidores</a></h4>
+                    <h4 class="opcoes"><a class="botao" href="">Opção futura</a></h4>
+                </div>
+                <div class="box2">
+                    <p><img src="wild_pepe.jpg" id="fotot"></p>
+                    <p id="data">13/04/2020 19:30</p>
+                    <p id="tweet">Aqui, temos um exemplo de uma postagem antiga feita pelo usuário. Todas as postagens aparecerão dessa forma.</p>
+    
+                </div>
+            </div>
+        </div>
+
+    </body>
+
+
+  <script>
+    function openSlideMenu() {
+      document.getElementById("container").style.marginLeft = '0px';
+    }
+
+    function closeSlideMenu() {
+      document.getElementById("container").style.marginLeft = '-11%';
+
+    }
+
+
+  </script>
+
+<!-- /COPIAR -->
+
+  <script src="tweetLetterCount.js"></script>
+  <script src="addPost.js"></script>
+
+
+
+
+
+
+
+
+
+</html>
