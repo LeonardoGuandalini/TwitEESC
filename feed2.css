@@ -98,6 +98,23 @@ body {
   resize: none;
 }
 
+/* VERIFICAÇÃO DO TAMANHO DO TWEET (CLASSES) */
+
+.shortTweet {
+  color: darkgreen;
+}
+
+.mediumTweet {
+  color: orange;
+}
+
+.invalidTweet {
+  color: red;
+}
+
+
+/* ######################################### */
+
 .letter-number {
   margin: 0 8px;
   width: 2px;
@@ -123,10 +140,18 @@ body {
 }
 
 .post {
+  display: flex;
+  flex-wrap: wrap;
   margin: 10px 0;
   padding: 50px 100px;
   border: black solid 2px;
+  width: 50%;
 
+}
+.post h2 {
+  word-break: break-word;
+  padding: 10px 20px;
+  width: 100%;
 }
 
 .profile-pic {
