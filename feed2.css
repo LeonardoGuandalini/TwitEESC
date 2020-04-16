@@ -7,13 +7,14 @@ body {
   display: flex;
   margin: 0 0 0 -11%; 
   transition: 500ms;
+  height: 100vh;
 
 }
 
 #menu-space {
   flex-grow: 1;
   background: linear-gradient(darkblue, rgb(45, 0, 128));
-  height: 100vh;
+  height: auto;
   
 
 }
@@ -89,7 +90,7 @@ body {
 
 .tweet {
   background: darkblue;
-  font-size: 0.85vw;
+  font-size: 1vw;
   text-decoration: none;
   border: none;
   color: white;
@@ -126,35 +127,37 @@ body {
 }
 #feed-space {
   flex-grow: 10;
-  background: white;
-  height: 100vh;
+  background: rgb(255, 255, 255);
+  height: 100%;
   display: flex;
   flex-direction: column;
+  
 }
 
 .posts {
   display: flex;
   flex-direction: column;
-  text-align: center;
-  padding: 10px;
+  align-items: center;
+  width: 100%;
+  
 }
 
 .post {
   display: flex;
-  flex-wrap: wrap;
   margin: 10px 0;
-  padding: 50px 100px;
-  border: black solid 2px;
-  width: 50%;
-
+  border: gray solid 5px;
+  width: 45vw;
+  box-shadow: black 5px;
+  height: 20vh;
 }
 .post h2 {
   word-break: break-word;
   padding: 10px 20px;
-  width: 100%;
+  width: 70%;
 }
 
 .profile-pic {
-  position: left;
-
+  position: right;
+  height: 100%;
+  width: 30%;
 }
