@@ -149,6 +149,7 @@ body {
   width: 45vw;
   box-shadow: black 5px;
   height: 20vh;
+  transition: 0.5s;
 }
 .post h2 {
   word-break: break-word;
@@ -156,8 +157,26 @@ body {
   width: 70%;
 }
 
+.post span {
+  padding: 10px 10px;
+
+}
+.post-text {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  justify-content: space-between;
+  
+}
 .profile-pic {
   position: right;
   height: 100%;
   width: 30%;
+}
+
+.invisible {
+  transition: 0.4s;
+  color:white;
+  display: none;
+
 }
