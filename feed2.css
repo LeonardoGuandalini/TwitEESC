@@ -150,6 +150,7 @@ body {
   box-shadow: black 5px;
   height: 20vh;
   transition: 0.5s;
+  align-self: center;
 }
 .post h2 {
   word-break: break-word;
@@ -159,7 +160,8 @@ body {
 
 .post span {
   padding: 10px 10px;
-
+  cursor: pointer;
+  
 }
 .post-text {
   display: flex;

@@ -61,6 +61,7 @@ var id = 1;
       var deleteButton = document.createElement("span");
       deleteButton.textContent = "Delete";
 
+      var writeDiv = document.getElementById("write");
       var postSpace = document.getElementById('post-space');
       var textArea = document.querySelector("textarea");
       var text = textArea.value;
@@ -71,9 +72,10 @@ var id = 1;
       postDiv.classList.add("post");
       postDiv.setAttribute("id", id);
       id += 1;
-      postSpace.appendChild(postDiv);
-      postDiv.appendChild(textDiv);
-  
+      
+      
+      
+      postSpace.insertAdjacentElement("afterend", postSpace.appendChild(postDiv));
       var textH2 = document.createElement("h2");
       var textNode = document.createTextNode(text);
       textH2.appendChild(textNode);
@@ -84,10 +86,15 @@ var id = 1;
       var lineBreak = document.createElement("br");
       postSpace.appendChild(lineBreak);
 
-      deleteButton.addEventListener('dblclick', function() {
+
+      
+      postDiv.appendChild(textDiv);
+
+      
+      deleteButton.addEventListener('click', function() {
          window.setTimeout(function() {
             document.getElementById(objId).classList.add("invisible");
-
+            lineBreak.classList.add("invisible");
       
 
          }, 200);
